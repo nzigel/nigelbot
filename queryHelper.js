@@ -48,7 +48,7 @@ function chkDay(daystr, dayEnt) {
         dayEnt.forEach(function(de) {
 
                 if (((de.entity.indexOf('last week') != -1) || (de.entity.indexOf('this week') != -1)) && (de.entity.indexOf('weekend') == -1)) {
-                    // we have been passed in a specific date to check
+                    // we have been passed in a specific date 
                     // handle for tuesday last week and tuesday this week etc
                     // don't pick up last weekend or this weekend
                    
